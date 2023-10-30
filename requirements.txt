@@ -1,0 +1,1 @@
+git+https://git@gitlab.just-ai.com/ml-platform-pub/mlp-python-sdk.git@release
