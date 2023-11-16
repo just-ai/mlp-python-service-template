@@ -2,7 +2,7 @@
 
 This repository is a project template for creating a new [Caila](https://app.caila.io/) service.
 
-> Caila is a platform for hosting microservices based on machine learning models.
+> Caila is a platform for hosting microservices based on ML models.
 > It is a powerful tool that can cover every aspect of your solution’s lifecycle, from model training and QA to deployment and monitoring.
 
 [Fork this project](https://github.com/just-ai/mlp-hello-world-service/fork) to start developing a service of your own!
@@ -10,7 +10,7 @@ This repository is a project template for creating a new [Caila](https://app.cai
 ## Get started
 
 Start by getting yourself acquainted with the contents of [`main.py`](./src/main.py).
-In terms of features, this is a simple “Hello World” service.
+In terms of features, this is a simple “Hello World” service:
 
 - It has no `fit` method, so it can’t be trained.
 - Its `predict` method returns a greeting message to whatever’s passed as the `name` in the request body.
@@ -26,7 +26,7 @@ The build script will create a Docker image, push it to the [public Caila Docker
 
 ```txt
 --------------------------------------------------
-Docker image: docker-pub.caila.io/caila-public/mlp-hello-world-service-xxxxxxxxxxxxxxxxxxxxxxxx:main
+Docker image: docker-pub.caila.io/caila-public/mlp-hello-world-service-xxxxxxxxxxxxxxxx:main
 --------------------------------------------------
 ```
 
@@ -39,10 +39,8 @@ You will need this URL to configure your service in Caila.
 
 1. Sign in to [Caila](https://app.caila.io/) or sign up for a new account.
 2. Go to *My space* and select *Images* in the sidebar.
-
     > 🛈 If you don’t see this tab, go to *My space* → *Services*, select *Create service*, and submit a request for access.
     > Our customer support team will get back to you shortly.
-
 3. Select *Create image*. Provide the image name and the URL you got from the build script.
 4. On the image description page, select *Create service*. Provide the service name and leave the other settings at their defaults.
 5. You should now see your service in the *Services* tab. Go to its details page and select *Diagnostics*.
@@ -56,4 +54,4 @@ If you would like to learn more about Caila, check out our official [documentati
 
 ## License
 
-This project is licensed under the Apache License, Version 2.0.
+This project is licensed under Apache License 2.0.
