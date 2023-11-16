@@ -19,12 +19,11 @@ class PredictResponse(BaseModel):
 
 
 class SimpleActionExample(Task):
-
     def __init__(self, config: BaseModel, service_sdk: MlpServiceSDK = None) -> None:
         super().__init__(config, service_sdk)
 
     def predict(self, data: PredictRequest, config: BaseModel) -> PredictResponse:
-        return PredictResponse(response='Hello ' + data.name + ' !')
+        return PredictResponse(response="Hello, " + data.name + "!")
 
 
 if __name__ == "__main__":
