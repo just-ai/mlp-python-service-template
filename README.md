@@ -1,11 +1,11 @@
-# mlp-hello-world-service
+# mlp-python-service-template
 
 This repository is a project template for creating a new [Caila](https://app.caila.io/) service.
 
 > Caila is a platform for hosting microservices based on ML models.
 > It is a powerful tool that can cover every aspect of your solution’s lifecycle, from model training and QA to deployment and monitoring.
 
-[Fork this project](https://github.com/just-ai/mlp-hello-world-service/fork) to start developing a service of your own!
+[Create a new project](https://github.com/new?template_name=mlp-python-service-template&template_owner=just-ai) from this template to start developing a service of your own!
 
 ## Get started
 
